@@ -31,6 +31,8 @@
 <br />
 Поведение описано в файле конфигурации `styleguide.config.js`
 <br />
+Опция skipComponentsWithoutExample: `true` (по умолчанию `false`), позволяет пропустить компоненты без примеров (About.md ComponentName.md)
+<br />
 Чтобы исключить компонент, в файле конфигураций можно указать опцию ignore:
 module.exports = {
   ignore: ['**/*.spec.js', '**/components/Button.js']   // игнорирует компонент Button и все файлы с префиксом scec.
