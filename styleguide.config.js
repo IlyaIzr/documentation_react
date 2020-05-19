@@ -1,5 +1,6 @@
 module.exports = {
   components: 'src/components/**/*.js',
+  skipComponentsWithoutExample: true,
   sections: [
     {
       name: 'Вступление',

@@ -1,15 +1,21 @@
 # React Styleguidist
 
 ## Установка
+### npm
 
 Для create-react-app можно использовать команду $ npm install --save react-styleguidist 
 <br />
 Для отдельной установки $ npm install --save-dev react-styleguidist
 <br />
+
+### yarn
+Установить как dev dependency $ yarn add react-styleguidist -D
+<br />
+<br />
 В packaje.json можно добавить скрипты:
-"scripts": {
-"styleguide": "styleguidist server",
-"styleguide:build": "styleguidist build"
+  "scripts": {
+  "styleguide": "styleguidist server",
+  "styleguide:build": "styleguidist build"
 }
 <br />
 

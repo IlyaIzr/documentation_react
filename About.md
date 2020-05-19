@@ -1,15 +1,21 @@
 # React Styleguidist
 
 ## Установка
+### npm
 
 Для create-react-app можно использовать команду $ npm install --save react-styleguidist 
 <br />
 Для отдельной установки $ npm install --save-dev react-styleguidist
 <br />
+
+### yarn
+Установить как dev dependency $ yarn add react-styleguidist -D
+<br />
+<br />
 В packaje.json можно добавить скрипты:
-"scripts": {
-"styleguide": "styleguidist server",
-"styleguide:build": "styleguidist build"
+  "scripts": {
+  "styleguide": "styleguidist server",
+  "styleguide:build": "styleguidist build"
 }
 <br />
 
@@ -30,6 +36,8 @@
 По умолчанию компоненты ищутся в `src/components/**/*.{js,jsx,ts,tsx}`, игнорируя папку __tests__ и .test.js .test.tsx и проч.
 <br />
 Поведение описано в файле конфигурации `styleguide.config.js`
+<br />
+Опция skipComponentsWithoutExample: `true` (по умолчанию `false`), позволяет пропустить компоненты без примеров (About.md ComponentName.md)
 <br />
 Чтобы исключить компонент, в файле конфигураций можно указать опцию ignore:
 module.exports = {
